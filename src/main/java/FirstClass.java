@@ -11,7 +11,9 @@ public class FirstClass {
         int[] yourArray = new int[size];
        for(int i=0; i <= yourArray.length-1; i++)
         {
-            int age = scan.nextInt();
+            yourArray[i] =  scan.nextInt();
         }
+
+       System.out.println(yourArray.length);
     }
 }
