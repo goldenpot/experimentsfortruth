@@ -9,5 +9,9 @@ public class FirstClass {
         System.out.print("Enter the array size: ");
         int size = scan.nextInt();
         int[] yourArray = new int[size];
+       for(int i=0; i <= yourArray.length-1; i++)
+        {
+            int age = scan.nextInt();
+        }
     }
 }
